@@ -40,7 +40,7 @@ This is a simple Bmi calculator app that you can you use to calculate your bmi.
 <h1>How to use this project</h1>
 <h3>Download it and simply open in your Android Studio</h3>
 <ul>
-  <li>Let it load in android it might take time depending on your system</li>
+  <li>Let it load in Android Studio it might take time depending on your system</li>
   <li>Make sure you are connected to internet</li>
   <li>Make sure your DBSQlite Browser with you to see the data added </li>
 </ul>
