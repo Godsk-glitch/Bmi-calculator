@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C70039">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obese!!"
+        android:textColor="#DAF7A6"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <TextView
+        android:id="@+id/txtinter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Here's what you need to know..."
+        android:textColor="@color/black"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188"></TextView>
+
+    <TextView
+        android:id="@+id/tt1"
+        android:layout_width="194dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:hint="Avoid Processed Foods"
+        android:textColor="#ffff"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304"></TextView>
+
+    <TextView
+        android:id="@+id/tt2"
+        android:layout_width="194dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:hint="Drink Less sugar Coffee"
+        android:textColor="#ffff"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471"></TextView>
+
+    <TextView
+        android:id="@+id/tt3"
+        android:layout_width="194dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:hint="Try a Low-Carb Diet"
+        android:textColor="#ffff"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616"></TextView>
+
+    <TextView
+        android:id="@+id/tt4"
+        android:layout_width="194dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:hint="Exercise is the key"
+        android:textColor="#ffff"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763"></TextView>
+
+    <ImageView
+        android:id="@+id/tc"
+        android:layout_width="340dp"
+        android:layout_height="105dp"
+        android:src="@drawable/takecare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="114dp"
+        android:layout_height="70dp"
+        android:src="@drawable/nofood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="114dp"
+        android:layout_height="70dp"
+        android:src="@drawable/lowcarb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612"
+         />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="114dp"
+        android:layout_height="70dp"
+        android:src="@drawable/excercise"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762"
+         />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="114dp"
+        android:layout_height="70dp"
+        android:src="@drawable/lssugar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

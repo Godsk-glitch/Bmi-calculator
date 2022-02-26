@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D95D27">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Severly Underweight!?"
+        android:textColor="#F1F017"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <TextView
+        android:id="@+id/txtinter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Here's what you need to know..."
+        android:textColor="@color/black"
+        android:textColorHint="#E4B61F"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tt1"
+        android:layout_width="194dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:hint=" Include a protein-rich diet"
+        android:textColor="#ffff"
+        android:textColorHint="#E4B61F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tt2"
+        android:layout_width="194dp"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:hint=" Eat more calories"
+        android:textColor="#ffff"
+        android:textColorHint="#E4B61F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tt3"
+        android:layout_width="194dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:hint="Weight lifting and exercise"
+        android:textColor="#ffff"
+        android:textColorHint="#E4B61F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tt4"
+        android:layout_width="194dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:hint="Avoid smoking"
+        android:textColor="#ffff"
+        android:textColorHint="#E4B61F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/tc"
+        android:layout_width="340dp"
+        android:layout_height="105dp"
+        android:src="@drawable/takecare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="114dp"
+        android:layout_height="70dp"
+        android:src="@drawable/highprtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291"
+         />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="114dp"
+        android:layout_height="70dp"
+        android:src="@drawable/cal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444"
+         />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="114dp"
+        android:layout_height="70dp"
+        android:src="@drawable/weightlifting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623"
+         />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="114dp"
+        android:layout_height="70dp"
+        android:src="@drawable/nosmoke"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

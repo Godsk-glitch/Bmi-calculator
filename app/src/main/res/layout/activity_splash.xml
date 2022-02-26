@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="BMI CALCULATOR"
+        android:textColor="#FFFFFF"
+        android:textSize="34dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:drawableStart="@drawable/custom_name_icon"
+        android:layout_marginBottom="10dp"
+
+
+        android:maxLength="20"
+        android:background="@drawable/custom_edittext"
+        android:gravity="center"
+        android:hint="Enter your name"
+        android:textColorHint="#EAEAEA"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_name"
+        android:paddingLeft="12dp"></EditText>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/custom_mobile_focused"
+        android:paddingLeft="12dp"
+        android:gravity="center"
+        android:hint="Enter phone no."
+        android:maxLength="10"
+        android:textColorHint="#EAEAEA"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_mobile"></EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/edweg"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:hint="KG"
+            android:maxLength="3"
+            android:textColorHint="#EAEAEA"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/edhei"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:hint="cm"
+            android:maxLength="3"
+            android:textColorHint="#EAEAEA"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"></EditText>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="270dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="13dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/feetid"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Height"
+            android:paddingLeft="12dp"
+            android:drawableLeft="@drawable/ic_height"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:background="#154D6D"
+            android:foreground="?attr/selectableItemBackgroundBorderless"/>
+
+        <Button
+            android:id="@+id/lbid"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Weight"
+            android:paddingLeft="12dp"
+            android:drawableLeft="@drawable/ic_weight"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:background="#154D6D"
+            android:foreground="?attr/selectableItemBackgroundBorderless"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnres"
+            android:layout_width="164dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Result"
+            android:paddingLeft="12dp"
+            android:drawableLeft="@drawable/ic_result"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:background="#154D6D"
+            android:foreground="?attr/selectableItemBackgroundBorderless"/>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="164dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Search"
+            android:paddingLeft="12dp"
+            android:drawableLeft="@drawable/ic_search"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:background="#154D6D"
+            android:foreground="?attr/selectableItemBackgroundBorderless"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/txtinter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="BMI Status ?"
+        android:textColor="#ffff"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/txtres"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:hint="BMI = ? "
+        android:textColorHint="#FFFFFF"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnreset"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:text="Reset"
+            android:paddingLeft="12dp"
+            android:drawableLeft="@drawable/ic_replay"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="#154D6D"
+            android:foreground="?attr/selectableItemBackgroundBorderless"/>
+
+        <Button
+            android:id="@+id/faction"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:text="Report"
+            android:paddingLeft="12dp"
+            android:drawableLeft="@drawable/ic_report"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:background="#154D6D"
+            android:foreground="?attr/selectableItemBackgroundBorderless"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

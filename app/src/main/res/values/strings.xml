@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string-array name="gender">
+        <item>
+            Select Gender
+        </item>
+        <item>
+            MALE
+        </item>
+        <item>
+            FEMALE
+        </item>
+    </string-array>
+    <string name="severly_underweight">Severly UnderWeight !?</string>
+    <string name="here_s_what_you_need_to_know">Here\'s what you need to know...</string>
+</resources>

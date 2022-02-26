@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btngrad">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Weight in pounds "
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"></TextView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/txt1"
+            android:layout_width="95dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:maxLength="3"
+            android:hint="in lbs"
+            android:textColorHint="#EAEAEA"
+            android:inputType="numberDecimal"
+            android:textSize="25sp"></EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#340684"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="Check"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="165dp"
+        android:layout_height="63dp"
+        android:background="@drawable/custom_edittext"
+        android:gravity="center"
+        android:maxLength="3"
+        android:hint="in kg "
+        android:textColorHint="#EAEAEA"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69"></TextView>
+
+    <Button
+        android:id="@+id/resset"
+        android:layout_width="105dp"
+        android:layout_height="49dp"
+
+        android:text="Reset"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#340684"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92"></Button>
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="105dp"
+        android:layout_height="49dp"
+
+        android:background="#340684"
+        android:text="Go Back"
+        android:textColor="#FFFFFF"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919"></Button>
+</androidx.constraintlayout.widget.ConstraintLayout>
