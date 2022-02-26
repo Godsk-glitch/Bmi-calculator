@@ -1,9 +1,9 @@
 # Bmi-calculator
 This is a simple Bmi calculator app that you can you use to calculate your bmi.
 
-<p><img src="scrrenshots/welcome.png" height="450px" width="250px">
+<p><img src="scrrenshots/welcome.png" height="450px" width="250px">	&nbsp;
   Welcome Page
-<img src="scrrenshots/home.png" height="450px" width="250px">
+<img src="scrrenshots/home.png" height="450px" width="250px">	&nbsp;
   Home Page
 </p>
 <br>
