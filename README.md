@@ -3,7 +3,7 @@ This is a simple Bmi calculator app that you can you use to calculate your bmi.
 
 <p><img src="scrrenshots/welcome.png" height="450px" width="250px">	&nbsp;
   Welcome Page
-<img src="scrrenshots/home.png" height="450px" width="250px">	&nbsp;
+<img src="scrrenshots/home.png" height="450px" width="250px">	&ensp;
   Home Page
 </p>
 <br>
