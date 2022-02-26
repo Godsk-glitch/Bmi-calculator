@@ -33,5 +33,9 @@ This is a simple Bmi calculator app that you can you use to calculate your bmi.
 <br>
 <p><img src="scrrenshots/report2.png" height="450px" width="250px" text-align="center"></p>
  <p>Report2 Page</p>
+ 
+ <h1>Data Base used </h1>
+ <hr>
+ <h3>SQlite</h3>
 
 
